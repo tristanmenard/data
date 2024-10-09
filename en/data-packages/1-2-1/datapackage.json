@@ -12,12 +12,38 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "PROGRESS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0.0",
+                "0.99",
+                "1.03",
+                "1.01",
+                ""
+              ]
+            },
+            "title": "PROGRESS"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
