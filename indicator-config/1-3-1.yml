@@ -36,3 +36,13 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+auto_progress_calculation: false
+progress_calculation_options:
+- disaggregation:
+  - field: Group
+    value: A
+  direction: positive
+- disaggregation: 
+  - field: Group
+    value: B
+  direction: negative
