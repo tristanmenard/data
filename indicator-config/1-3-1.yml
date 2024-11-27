@@ -30,3 +30,4 @@ reporting_status: notstarted
 sort: ''
 standalone: false
 tags: []
+auto_progress_calculation: true
