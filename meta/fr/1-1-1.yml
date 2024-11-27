@@ -1,0 +1,83 @@
+SDG_GOAL: >-
+  Objectif 1 : Éliminer la pauvreté sous toutes ses formes et partout dans le monde
+SDG_TARGET: >-
+  Cible 1.1 : D’ici à 2030, éliminer complètement l’extrême pauvreté dans le monde entier (s’entend actuellement du fait de vivre avec moins de 1,25 $ (dollar américain) par jour)
+SDG_INDICATOR: >-
+  Indicateur 1.1.1 : Proportion de la population vivant au-dessous du seuil de pauvreté fixé au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)
+SDG_SERIES_DESCR: >-
+
+META_LAST_UPDATE: >-
+
+SDG_RELATED_INDICATORS: >-
+
+SDG_CUSTODIAN_AGENCIES: >-
+
+CONTACT_ORGANISATION: >-
+
+CONTACT_NAME: >-
+
+ORGANISATION_UNIT: >-
+
+CONTACT_FUNCT: >-
+
+CONTACT_PHONE: >-
+
+CONTACT_MAIL: >-
+
+CONTACT_EMAIL: >-
+
+STAT_CONC_DEF: >-
+  La proportion de la population active sous le seuil de pauvreté international de 1,90 $ américain par jour, également appelée taux de pauvreté des travailleurs, est définie comme la part des personnes actives vivant dans des ménages dont la consommation ou le revenu par habitant est inférieur au seuil de pauvreté international de 1,90 $ américain par jour.
+UNIT_MEASURE: >-
+
+CLASS_SYSTEM: >-
+
+SOURCE_TYPE: >-
+
+COLL_METHOD: >-
+
+FREQ_COLL: >-
+
+REL_CAL_POLICY: >-
+
+DATA_SOURCE: >-
+
+COMPILING_ORG: >-
+
+INST_MANDATE: >-
+
+RATIONALE: >-
+
+REC_USE_LIM: >-
+
+DATA_COMP: >-
+
+DATA_VALIDATION: >-
+
+ADJUSTMENT: >-
+
+IMPUTATION: >-
+
+REG_AGG: >-
+
+DOC_METHOD: >-
+
+QUALITY_MGMNT: >-
+
+QUALITY_ASSURE: >-
+
+QUALITY_ASSMNT: >-
+
+COVERAGE: >-
+
+COMPARABILITY: >-
+
+OTHER_DOC: >-
+
+# SOURCE(S)
+source_active_1: 'true'
+source_url_text_1: Statistique Canada. Tableau 11-10-0135-01  Statistiques du faible revenu selon l'âge, le sexe et le type de famille économique
+source_url_1: https://doi.org/10.25318/1110013501-fra
+source_organisation_1: Statistique Canada
+source_periodicity_1: Annuelle
+source_geographical_coverage_1: Canada, Région géographique du Canada, Province ou territoire, Région métropolitaine de recensement
