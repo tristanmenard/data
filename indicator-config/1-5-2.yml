@@ -34,12 +34,16 @@ auto_progress_calculation: false
 progress_calculation_options:
   - series: Series1
     unit: USD
-    disaggregation: {'Group': 'A'}
+    disaggregation: 
+    - field: Group
+      value: A
     direction: positive
     base_year: 2012
   - series: Series1
     unit: USD
-    disaggregation: {'Group': 'B'}
+    disaggregation:
+    - field: Group
+      value: B
     direction: positive
     base_year: 2013
 progress_thresholds:
