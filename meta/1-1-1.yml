@@ -30,38 +30,7 @@ CONTACT_MAIL: >-
 CONTACT_EMAIL: >-
 
 STAT_CONC_DEF: >- 
-  ## Definition:
-  
-  The proportion of the employed population below the international poverty
-  line of US$1.90 per day, also referred to as the working poverty rate, is
-  defined as the share of employed persons living in households with per-capita
-  consumption or income that is below the international poverty line of
-  US$1.90.
-  
-  ## Concepts:
-  
-  **Employment:** All persons of working age who,
-  during a short reference period (one week), were engaged in any activity to
-  produce goods or provide services for pay or profit.
-  
-  
-  **Poverty Line:** Threshold below which individuals
-  in the reference population are considered poor and above which they are
-  considered non-poor. The threshold is generally defined as the per-capita
-  monetary requirements an individual needs to afford the purchase of a basic
-  bundle of goods and services. For the purpose of this indicator, an absolute
-  international poverty line of US$1.90 per day is used.
-  
-  
-  **Household in poverty:** Households are defined as
-  poor if their income or consumption expenditure is below the poverty line
-  taking into account the number of household members and composition (e.g.,
-  number of adults and children).
-  
-  
-  **Working poor:** Employed persons living in
-  households that are classified as poor, that is, that have income or
-  consumption levels below the poverty line used for measurement.
+  The indicator “proportion of the population below the international poverty line” is defined as the percentage of the population living on less than $1.90 a day at 2011 international prices. The 'international poverty line' is currently set at $1.90 a day at 2011 international prices.
 UNIT_MEASURE: >-
 
 CLASS_SYSTEM: >-
@@ -108,14 +77,10 @@ COMPARABILITY: >-
 
 OTHER_DOC: >-
 
-reporting_status: complete
-
 # SOURCE(S)
 source_active_1: 'true'
-source_url_text_1: Statistics Canada. Table 11-10-0135-01  Low income statistics by
-  age, sex and economic family type
+source_url_text_1: Statistics Canada. Table 11-10-0135-01  Low income statistics by age, sex and economic family type
 source_url_1: https://doi.org/10.25318/1110013501-eng
 source_organisation_1: Statistics Canada
 source_periodicity_1: Annual
-source_geographical_coverage_1: Canada, Geographical region of Canada, Province or
-  territory, Census metropolitan area
+source_geographical_coverage_1: Canada, Geographical region of Canada, Province or territory, Census metropolitan area
