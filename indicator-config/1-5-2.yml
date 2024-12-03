@@ -30,7 +30,7 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-auto_progress_calculation: false
+auto_progress_calculation: true
 progress_calculation_options:
   - series: Series1
     unit: USD
@@ -38,15 +38,11 @@ progress_calculation_options:
     - field: Group
       value: A
     direction: positive
-    base_year: 2012
+    base_year: 2015
   - series: Series1
     unit: USD
     disaggregation:
     - field: Group
       value: B
     direction: positive
-    base_year: 2013
-progress_thresholds:
-  high: 0.015
-  med: 0.005
-  low: 0
+    base_year: 2015

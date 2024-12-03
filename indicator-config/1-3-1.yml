@@ -36,7 +36,7 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-auto_progress_calculation: false
+auto_progress_calculation: true
 progress_calculation_options:
 - disaggregation:
   - field: Group
