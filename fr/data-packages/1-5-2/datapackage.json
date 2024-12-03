@@ -20,8 +20,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Series1",
-                "Series2",
+                "Série1",
+                "Série2",
                 ""
               ]
             },
@@ -44,8 +44,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "A_fr",
+                "B_fr",
                 ""
               ]
             },
@@ -62,5 +62,5 @@
   ],
   "profile": "data-package",
   "name": "1-5-2",
-  "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)"
+  "title": "Pertes économiques directement attribuables à des catastrophes par rapport au produit intérieur brut mondial (PIB)"
 }
