@@ -30,10 +30,9 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-auto_progress_calculation: false
+auto_progress_calculation: true
 progress_calculation_options:
 - series: Series1
   unit: USD
   target: 7.25
   target_year: 2030
-- series: Series2
