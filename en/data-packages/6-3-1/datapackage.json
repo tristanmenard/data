@@ -12,12 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A",
+                "B",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -26,5 +38,5 @@
   ],
   "profile": "data-package",
   "name": "6-3-1",
-  "title": "Proportion of domestic and industrial wastewater flows safely treated"
+  "title": "Multiple disaggregations showing limited progress and no targets achieved"
 }

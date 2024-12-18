@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "6-2-1",
-  "title": "Proportion de la population utilisant a) des services d’assainissement gérés en toute sécurité et b) notamment des équipements pour se laver les mains avec de l’eau et du savon"
+  "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = 1,5 %"
 }
