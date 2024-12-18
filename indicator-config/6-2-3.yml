@@ -17,11 +17,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: test.6-1-1-title
+graph_title: test.6-2-3-title
 graph_titles: []
 graph_type: line
-indicator_name: test.6-1-1-title
-indicator_number: '6.1.1'
+indicator_name: test.6-2-3-title
+indicator_number: '6.2.3'
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -33,3 +33,4 @@ tags: []
 auto_progress_calculation: true
 progress_calculation_options:
   - direction: positive
+    limit: 100
