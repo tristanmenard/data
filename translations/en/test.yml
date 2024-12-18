@@ -3,7 +3,13 @@
 6-1-2-title: Score alignment - Qualitative indicator with 0.5% CAGR
 6-1-3-title: Score alignment - Qualitative indicator with 0% CAGR
 6-1-4-title: Score alignment - Qualitative indicator with -1% CAGR
-6-2-1-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = 1.5% 
-6-2-2-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = 0.5% 
-6-2-3-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = 0% 
-6-2-4-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = -1% 
+6-2-1-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = 1.5%
+6-2-2-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = 0.5%
+6-2-3-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = 0%
+6-2-4-title: Score alignment - Qualitative indicator near limit with CAGR/coeff = -1%
+6-3-1-title: Multiple disaggregations showing limited progress and no targets achieved
+6-3-2-title: Multiple disaggregations showing limited progress and some targets achieved
+6-3-3-title: Multiple disaggregations showing limited progress and all targets achieved
+6-3-4-title: Multiple disaggregations showing substantial progress and no targets achieved
+6-3-5-title: Multiple disaggregations showing substantial progress and some targets achieved
+6-3-6-title: Multiple disaggregations showing substantial progress and all targets achieved
