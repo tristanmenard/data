@@ -16,6 +16,18 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Série1",
+                "Série2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Group",
             "type": "string",
             "constraints": {

@@ -15,6 +15,17 @@
             "type": "integer"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Series1",
+                "Series2",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Group",
             "type": "string",
             "constraints": {

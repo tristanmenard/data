@@ -624,6 +624,18 @@
             "title": "Year"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Series1",
+                "Series2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Group",
             "type": "string",
             "constraints": {
