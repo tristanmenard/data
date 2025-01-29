@@ -1,13 +1,13 @@
-Year,Series,COMMENT_OBS,Value
-Série1,A_fr,*,1
-Série1,B_fr,[note 1],2
-Série1,C_fr,[note 1] [note 2],3
-Série1,A_fr,[*],3
-Série1,B_fr,[note 1] [*],4
-Série1,C_fr,[e] [*],5
-Série2,A_fr,*,2
-Série2,B_fr,*,3
-Série2,C_fr,*,4
-Série2,A_fr,*,3
-Série2,B_fr,*,4
-Série2,C_fr,*,5
+Year,Series,Groupe,COMMENT_OBS,Value
+2015,Série1,A_fr,*,1
+2015,Série1,B_fr,[note 1],2
+2015,Série1,C_fr,[note 1] [note 2],3
+2016,Série1,A_fr,[*],3
+2016,Série1,B_fr,[note 1] [*],4
+2016,Série1,C_fr,[e] [*],5
+2015,Série2,A_fr,*,2
+2015,Série2,B_fr,*,3
+2015,Série2,C_fr,*,4
+2016,Série2,A_fr,*,3
+2016,Série2,B_fr,*,4
+2016,Série2,C_fr,*,5

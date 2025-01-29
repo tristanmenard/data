@@ -12,11 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Series1",
+                "Series2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
@@ -26,7 +38,7 @@
                 ""
               ]
             },
-            "title": "Series"
+            "title": "Group"
           },
           {
             "name": "COMMENT_OBS",
