@@ -1,1 +1,13 @@
-Year,Value
+Year,Series,COMMENT_OBS,Value
+Série1,A_fr,*,1
+Série1,B_fr,[note 1],2
+Série1,C_fr,[note 1] [note 2],3
+Série1,A_fr,[*],3
+Série1,B_fr,[note 1] [*],4
+Série1,C_fr,[e] [*],5
+Série2,A_fr,*,2
+Série2,B_fr,*,3
+Série2,C_fr,*,4
+Série2,A_fr,*,3
+Série2,B_fr,*,4
+Série2,C_fr,*,5

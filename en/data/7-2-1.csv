@@ -1,1 +1,13 @@
-Year,Value
+Year,Series,COMMENT_OBS,Value
+Series1,A,*,1
+Series1,B,[note 1],2
+Series1,C,[note 1] [note 2],3
+Series1,A,[*],3
+Series1,B,[note 1] [*],4
+Series1,C,[e] [*],5
+Series2,A,*,2
+Series2,B,*,3
+Series2,C,*,4
+Series2,A,*,3
+Series2,B,*,4
+Series2,C,*,5
