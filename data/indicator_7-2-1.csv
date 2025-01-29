@@ -1,4 +1,4 @@
-Year,Series,COMMENT_OBS,Value
+Year,Series,Group,COMMENT_OBS,Value
 2015,Series1,A,*,1
 2015,Series1,B,[note 1],2
 2015,Series1,C,[note 1] [note 2],3
