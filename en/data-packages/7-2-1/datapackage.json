@@ -41,20 +41,26 @@
             "title": "Group"
           },
           {
-            "name": "COMMENT_OBS",
+            "name": "COMMENT_OBS_0",
             "type": "string",
             "constraints": {
               "enum": [
-                "*",
-                "[note 1]",
-                "[note 1] [note 2]",
-                "[*]",
-                "[note 1] [*]",
-                "[e] [*]",
+                "<2.5",
                 ""
               ]
             },
-            "title": "COMMENT_OBS"
+            "title": "COMMENT_OBS_0"
+          },
+          {
+            "name": "COMMENT_OBS_1",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Estimated value",
+                ""
+              ]
+            },
+            "title": "COMMENT_OBS_1"
           },
           {
             "name": "Value",
