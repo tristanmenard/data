@@ -1,0 +1,53 @@
+1-1-1-title: Series
+1-1-2-title: Unit
+1-1-3-title: Single disaggregation selection
+1-2-1-title: Multiple series selection
+1-2-2-title: Multiple unit selection
+1-2-3-title: Multiple disaggregation selection
+1-3-1-title: Series and unit selection
+1-3-2-title: Series and disaggregation selection
+1-3-3-title: Unit and disaggregation selection
+1-3-4-title: Series, unit, and disaggregation selection
+1-4-1-title: Selection not sufficiently reduced by user
+2-1-1-title: Progress column with valid data
+2-1-2-title: Progress column with invalid data
+2-1-3-title: Empry progress column
+2-2-1-title: Progress column with series selection
+2-2-2-title: Progress column with unit selection
+2-2-3-title: Progress column with disaggregation selection
+2-2-4-title: Progress column with selection insufficiently reduced by user
+3-1-1-title: Qualitative indicator with maximum limit
+3-1-2-title: Qualitative indicator with minimum limit
+3-2-1-title: Quantitative indicator with limit
+4-1-1-title: Qualitative, all positive values, positive direction
+4-1-2-title: Qualitative, all positive values, negative direction
+4-2-1-title: Quantitative, all positive values, positive direction
+4-2-2-title: Quantitative, all positive values, negative direction
+4-3-1-title: Quantitative, all positive values, positive direction, target achieved at t = 0
+4-3-2-title: Quantitative, all positive values, negative direction, target achieved at t = 0
+4-4-1-title: Qualitative, all negative values, positive direction
+4-4-2-title: Qualitative, all negative values, negative direction
+4-5-1-title: Quantitative, all negative values, positive direction
+4-5-2-title: Quantitative, all negative values, negative direction
+4-6-1-title: Quantitative, all negative values, positive direction target achieved at t = 0
+4-6-2-title: Quantitative, all negative values, negative direction, target achieved at t = 0
+4-7-1-title: Mix of positive and negative values
+4-8-1-title: Manual override
+5-1-1-title: Zero target
+5-1-2-title: Zero base value
+5-1-3-title: Zero limit
+6-1-1-title: Qualitative indicator with CAGR = 1.5%, score should be 2.5
+6-1-2-title: Qualitative indicator with CAGR = 0.5%, score should be 0
+6-1-3-title: Qualitative indicator with CAGR = 0%, score should be -2.5
+6-1-4-title: Qualitative indicator with CAGR = -1%, score should be -3.75
+6-2-1-title: Qualitative indicator near limit with CAGR/coeff = 1.5%, score should be 2.5
+6-2-2-title: Qualitative indicator near limit with CAGR/coeff = 0.5%, score should be 0
+6-2-3-title: Qualitative indicator near limit with CAGR/coeff = 0%, score should be -2.5
+6-2-4-title: Qualitative indicator near limit with CAGR/coeff = -1%, score should be -3.75
+6-3-1-title: Quantitative indicator, multiple disaggregations, limited progress, no target achieved
+6-3-2-title: Quantitative indicator, multiple disaggregations, limited progress, some targets achieved
+6-3-3-title: Quantitative indicator, multiple disaggregations, limited progress, all targets achieved --> (5, target_achieved)
+6-3-4-title: Quantitative indicator, multiple disaggregations, substantial progress (scores=[5,5,5,5]), no targets achieved --> (5, substantial_progress)
+6-3-5-title: Quantitative indicator, multiple disaggregations, substantial progress (scores=[5,5,5,5]), some targets achieved --> (5, substantial_progress)
+6-3-6-title: Quantitative indicator, multiple disaggregations, substantial progress (scores=[5,5,5,5]), all targets achieved --> (5, target_achieved)
+7-1-1-title: Data start values after changing series
