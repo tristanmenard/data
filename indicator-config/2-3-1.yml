@@ -35,6 +35,9 @@ tags: []
 auto_progress_calculation: true
 progress_calculation_options:
 - direction: positive
+  disaggregation: 
+  - field: Group
+    value: Group A
   target: 3
   target_year: 2016
 
