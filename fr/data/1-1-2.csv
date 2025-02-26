@@ -1,0 +1,13 @@
+Year,Units,Groupe,Value
+2015,Unité1,GroupeA,1
+2015,Unité1,GroupeB,1
+2015,Unité1,,1
+2016,Unité1,GroupeA,1
+2016,Unité1,GroupeB,2
+2016,Unité1,,9
+2015,Unité2,GroupeA,9
+2015,Unité2,GroupeB,9
+2015,Unité2,,9
+2016,Unité2,GroupeA,1
+2016,Unité2,GroupeB,1
+2016,Unité2,,1

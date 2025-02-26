@@ -1,3 +1,5 @@
-Year,Value
-2015,2
-2016,2
+Year,Value,Series
+2015,1,Series1
+2016,9,Series1
+2015,9,Series2
+2016,1,Series2
