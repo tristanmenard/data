@@ -32,8 +32,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "GroupA",
-                "GroupB",
+                "Group A",
+                "Group B",
                 ""
               ]
             },
@@ -50,5 +50,5 @@
   ],
   "profile": "data-package",
   "name": "1-1-2",
-  "title": "Multiple series selection"
+  "title": "Unit"
 }

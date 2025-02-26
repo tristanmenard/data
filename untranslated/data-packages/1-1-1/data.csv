@@ -1,13 +1,13 @@
 Year,Series,Group,Value
-2015,Series1,GroupA,1
-2015,Series1,GroupB,1
+2015,Series1,Group A,1
+2015,Series1,Group B,1
 2015,Series1,,1
-2016,Series1,GroupA,1
-2016,Series1,GroupB,2
+2016,Series1,Group A,1
+2016,Series1,Group B,2
 2016,Series1,,9
-2015,Series2,GroupA,9
-2015,Series2,GroupB,9
+2015,Series2,Group A,9
+2015,Series2,Group B,9
 2015,Series2,,9
-2016,Series2,GroupA,1
-2016,Series2,GroupB,1
+2016,Series2,Group A,1
+2016,Series2,Group B,1
 2016,Series2,,1

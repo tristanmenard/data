@@ -30,8 +30,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "GroupA",
-                "GroupB",
+                "Group A",
+                "Group B",
                 ""
               ]
             }
@@ -46,5 +46,5 @@
   ],
   "profile": "data-package",
   "name": "1-1-2",
-  "title": "global_indicators.1-2-1-title"
+  "title": "global_indicators.1-1-2-title"
 }
