@@ -23,6 +23,7 @@
 ##### 2.2.2 Progress column with unit selection
 ##### 2.2.3 Progress column with disaggregation selection
 ##### 2.2.4 Progress column with selection insufficiently reduced by user
+##### 2.3.1 Progress column with empty headline
 
 ### 3. Limits
 ##### 3.1.1 Qualitative indicator with maximum limit
