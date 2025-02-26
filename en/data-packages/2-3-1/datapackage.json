@@ -12,8 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Group A",
+                ""
+              ]
+            },
+            "title": "Group"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",
@@ -26,5 +42,5 @@
   ],
   "profile": "data-package",
   "name": "2-3-1",
-  "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size"
+  "title": "Progress column with empty headline"
 }
