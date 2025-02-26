@@ -21,6 +21,7 @@
             "constraints": {
               "enum": [
                 "Group A",
+                "Group B",
                 ""
               ]
             },
@@ -33,7 +34,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]

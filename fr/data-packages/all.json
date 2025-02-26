@@ -373,6 +373,7 @@
             "constraints": {
               "enum": [
                 "Groupe A",
+                "Groupe B",
                 ""
               ]
             },
@@ -385,7 +386,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
