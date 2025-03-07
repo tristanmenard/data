@@ -3,6 +3,12 @@
 # which are helpers for implementations of Open SDG. This file allows easy use
 # of those functions without altering Python code.
 
+# Logging
+# -------
+logging:
+  - warn
+  - debug
+
 # Languages
 # ---------
 # This tells sdg-build to perform "translated builds" for each of the specified
