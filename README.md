@@ -69,3 +69,5 @@
 
 ### 7. Other
 ##### 7.1.1 Data start values after changing series
+##### 7.2.1 Observation attributes and GeoCode
+##### 7.3.1 Manual override, no progress status
