@@ -12,12 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "7-3-1",
-  "title": "Energy intensity measured in terms of primary energy and GDP"
+  "title": "Manual override, no progress status"
 }
