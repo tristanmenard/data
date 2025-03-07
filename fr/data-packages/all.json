@@ -115,24 +115,12 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Série1",
-                "Série2",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "USD",
-                "CAD",
+                "Unité1",
+                "Unité2",
                 ""
               ]
             },
@@ -143,8 +131,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "A_fr",
-                "B_fr",
+                "Groupe A",
+                "Groupe B",
                 ""
               ]
             },
@@ -218,6 +206,54 @@
         ]
       },
       "title": "Plusieurs désagrégations qui démontrent des progrès substantiels et complètent chaque cible"
+    },
+    {
+      "path": "1-4-2/data.csv",
+      "name": "1-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A_fr",
+                "B_fr",
+                ""
+              ]
+            },
+            "title": "Groupe"
+          },
+          {
+            "name": "Subgroup",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "X",
+                "Y",
+                ""
+              ]
+            },
+            "title": "Sous-groupe"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion de la population adulte totale qui dispose de la sécurité des droits fonciers a) de documents légalement authentifiés et b) qui considère que ses droits sur la terre sont sûrs, par sexe et par type"
     },
     {
       "path": "6-3-1/data.csv",
@@ -430,6 +466,54 @@
       "title": "Plusieurs désagrégations qui démontrent des progrès substantiels et complètent certaines cibles"
     },
     {
+      "path": "1-3-2/data.csv",
+      "name": "1-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Série1",
+                "Série2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "A_fr",
+                "B_fr",
+                ""
+              ]
+            },
+            "title": "Groupe"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.1-3-2-title"
+    },
+    {
       "path": "6-2-4/data.csv",
       "name": "6-2-4",
       "profile": "tabular-data-resource",
@@ -534,13 +618,72 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Série1",
+                "Série2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unité1",
+                "Unité2",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion de la population bénéficiant de socles ou systèmes de protection sociale, par sexe et par groupe de population (enfants, chômeurs, personnes âgées, personnes handicapées, femmes enceintes et nouveau-nés, victimes d’un accident du travail, pauvres et personnes vulnérables)"
+    },
+    {
+      "path": "1-3-3/data.csv",
+      "name": "1-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unité1",
+                "Unité2",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
             "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
                 "A_fr",
                 "B_fr",
-                "C_fr",
                 ""
               ]
             },
@@ -548,12 +691,12 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
       },
-      "title": "Proportion de la population bénéficiant de socles ou systèmes de protection sociale, par sexe et par groupe de population (enfants, chômeurs, personnes âgées, personnes handicapées, femmes enceintes et nouveau-nés, victimes d’un accident du travail, pauvres et personnes vulnérables)"
+      "title": "global_indicators.1-3-3-title"
     },
     {
       "path": "6-1-4/data.csv",
@@ -622,7 +765,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -631,22 +774,28 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
                 "A_fr",
                 "B_fr",
-                "C_fr",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Groupe"
           },
           {
-            "name": "GeoCode",
+            "name": "Subgroup",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "X",
+                "Y",
+                ""
+              ]
+            },
+            "title": "Sous-groupe"
           },
           {
             "name": "Value",
@@ -673,25 +822,32 @@
             "title": "Année"
           },
           {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Série1",
+                "Série2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
             "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
-                "A_fr",
-                "B_fr",
+                "Groupe A",
+                "Groupe B",
                 ""
               ]
             },
             "title": "Groupe"
           },
           {
-            "name": "Progress",
-            "type": "string",
-            "title": "Progress"
-          },
-          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -747,6 +903,43 @@
       "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = 1,5 %"
     },
     {
+      "path": "1-2-3/data.csv",
+      "name": "1-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Groupe A",
+                "Groupe B",
+                "Groupe C",
+                ""
+              ]
+            },
+            "title": "Groupe"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-3-title"
+    },
+    {
       "path": "7-2-1/data.csv",
       "name": "7-2-1",
       "profile": "tabular-data-resource",
@@ -787,18 +980,7 @@
             "title": "Groupe"
           },
           {
-            "name": "COMMENT_OBS_0",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "<2.5",
-                ""
-              ]
-            },
-            "title": "COMMENT_OBS_0"
-          },
-          {
-            "name": "COMMENT_OBS_1",
+            "name": "COMMENT_OBS",
             "type": "string",
             "constraints": {
               "enum": [
@@ -806,7 +988,17 @@
                 ""
               ]
             },
-            "title": "COMMENT_OBS_1"
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",

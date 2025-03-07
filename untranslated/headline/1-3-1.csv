@@ -1,1 +1,9 @@
-Year,Value
+Year,Value,Units,Series
+2015,1.0,Unit1,Series1
+2015,1.0,Unit2,Series1
+2015,1.0,Unit1,Series2
+2015,1.0,Unit2,Series2
+2016,0.5,Unit1,Series1
+2016,1.0,Unit2,Series1
+2016,2.0,Unit1,Series2
+2016,9.0,Unit2,Series2

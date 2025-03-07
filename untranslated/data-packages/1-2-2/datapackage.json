@@ -15,23 +15,12 @@
             "type": "integer"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Series1",
-                "Series2",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "USD",
-                "CAD",
+                "Unit1",
+                "Unit2",
                 ""
               ]
             }
@@ -41,8 +30,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Group A",
+                "Group B",
                 ""
               ]
             }

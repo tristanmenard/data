@@ -1,25 +1,13 @@
-Year,Series,Units,Groupe,Value
-2015,Série1,USD,A_fr,1
-2015,Série1,USD,B_fr,3
-2015,Série1,USD,,2
-2016,Série1,USD,A_fr,1
-2016,Série1,USD,B_fr,3
-2016,Série1,USD,,2
-2015,Série2,USD,A_fr,1
-2015,Série2,USD,B_fr,3
-2015,Série2,USD,,2
-2016,Série2,USD,A_fr,1
-2016,Série2,USD,B_fr,3
-2016,Série2,USD,,2
-2015,Série1,CAD,A_fr,1
-2015,Série1,CAD,B_fr,3
-2015,Série1,CAD,,2
-2016,Série1,CAD,A_fr,1
-2016,Série1,CAD,B_fr,3
-2016,Série1,CAD,,2
-2015,Série2,CAD,A_fr,1
-2015,Série2,CAD,B_fr,3
-2015,Série2,CAD,,2
-2016,Série2,CAD,A_fr,1
-2016,Série2,CAD,B_fr,3
-2016,Série2,CAD,,2
+Year,Units,Groupe,Value
+2015,Unité1,Groupe A,1
+2015,Unité1,Groupe B,1
+2015,Unité1,,1
+2016,Unité1,Groupe A,1
+2016,Unité1,Groupe B,2
+2016,Unité1,,9
+2015,Unité2,Groupe A,9
+2015,Unité2,Groupe B,9
+2015,Unité2,,9
+2016,Unité2,Groupe A,1
+2016,Unité2,Groupe B,1
+2016,Unité2,,1

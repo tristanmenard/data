@@ -1,1 +1,9 @@
-Year,Value
+Year,Value,Units,Series
+2015,1.0,Unité1,Série1
+2015,1.0,Unité2,Série1
+2015,1.0,Unité1,Série2
+2015,1.0,Unité2,Série2
+2016,0.5,Unité1,Série1
+2016,1.0,Unité2,Série1
+2016,2.0,Unité1,Série2
+2016,9.0,Unité2,Série2

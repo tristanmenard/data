@@ -38,17 +38,7 @@
             }
           },
           {
-            "name": "COMMENT_OBS_0",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "<2.5",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMMENT_OBS_1",
+            "name": "COMMENT_OBS",
             "type": "string",
             "constraints": {
               "enum": [
@@ -56,6 +46,14 @@
                 ""
               ]
             }
+          },
+          {
+            "name": "GeoCode",
+            "type": "string"
+          },
+          {
+            "name": "Progress",
+            "type": "string"
           },
           {
             "name": "Value",

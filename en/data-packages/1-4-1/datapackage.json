@@ -16,22 +16,28 @@
             "title": "Year"
           },
           {
-            "name": "Geography",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
                 "A",
                 "B",
-                "C",
                 ""
               ]
             },
-            "title": "Geography"
+            "title": "Group"
           },
           {
-            "name": "GeoCode",
+            "name": "Subgroup",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "X",
+                "Y",
+                ""
+              ]
+            },
+            "title": "Subgroup"
           },
           {
             "name": "Value",

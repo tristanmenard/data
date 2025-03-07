@@ -41,18 +41,7 @@
             "title": "Group"
           },
           {
-            "name": "COMMENT_OBS_0",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "<2.5",
-                ""
-              ]
-            },
-            "title": "COMMENT_OBS_0"
-          },
-          {
-            "name": "COMMENT_OBS_1",
+            "name": "COMMENT_OBS",
             "type": "string",
             "constraints": {
               "enum": [
@@ -60,7 +49,17 @@
                 ""
               ]
             },
-            "title": "COMMENT_OBS_1"
+            "title": "COMMENT_OBS"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
           },
           {
             "name": "Value",

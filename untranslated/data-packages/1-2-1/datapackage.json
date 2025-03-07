@@ -15,23 +15,30 @@
             "type": "integer"
           },
           {
-            "name": "Group",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Series1",
+                "Series2",
                 ""
               ]
             }
           },
           {
-            "name": "Progress",
-            "type": "string"
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Group A",
+                "Group B",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

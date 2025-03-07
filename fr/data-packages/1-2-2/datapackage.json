@@ -16,24 +16,12 @@
             "title": "Année"
           },
           {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Série1",
-                "Série2",
-                ""
-              ]
-            },
-            "title": "Series"
-          },
-          {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
-                "USD",
-                "CAD",
+                "Unité1",
+                "Unité2",
                 ""
               ]
             },
@@ -44,8 +32,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "A_fr",
-                "B_fr",
+                "Groupe A",
+                "Groupe B",
                 ""
               ]
             },

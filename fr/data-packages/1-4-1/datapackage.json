@@ -7,7 +7,7 @@
       "scheme": "file",
       "format": "csv",
       "hashing": "md5",
-      "encoding": "iso8859-1",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
@@ -16,22 +16,28 @@
             "title": "Année"
           },
           {
-            "name": "Geography",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
                 "A_fr",
                 "B_fr",
-                "C_fr",
                 ""
               ]
             },
-            "title": "Géographie"
+            "title": "Groupe"
           },
           {
-            "name": "GeoCode",
+            "name": "Subgroup",
             "type": "string",
-            "title": "GeoCode"
+            "constraints": {
+              "enum": [
+                "X",
+                "Y",
+                ""
+              ]
+            },
+            "title": "Sous-groupe"
           },
           {
             "name": "Value",

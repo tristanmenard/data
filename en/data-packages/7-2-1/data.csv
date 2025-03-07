@@ -1,13 +1,13 @@
-Year,Series,Group,COMMENT_OBS_0,COMMENT_OBS_1,Value
-2015,Series1,A,<2.5,Estimated value,1
-2015,Series1,B,<2.5,,2
-2015,Series1,C,,Estimated value,3
-2016,Series1,A,<2.5,Estimated value,3
-2016,Series1,B,<2.5,,4
-2016,Series1,C,,Estimated value,5
-2015,Series2,A,,,2
-2015,Series2,B,,,3
-2015,Series2,C,,,4
-2016,Series2,A,,,3
-2016,Series2,B,,,4
-2016,Series2,C,,,5
+Year,Series,Group,COMMENT_OBS,GeoCode,Progress,Value
+2015,Series1,A,Estimated value,10,1,0
+2015,Series1,B,,11,2,0
+2015,Series1,C,Estimated value,12,3,0
+2016,Series1,A,Estimated value,10,3,0
+2016,Series1,B,,11,4,0
+2016,Series1,C,Estimated value,12,5,0
+2015,Series2,A,,10,2,0
+2015,Series2,B,,11,3,0
+2015,Series2,C,,12,4,0
+2016,Series2,A,,10,3,0
+2016,Series2,B,,11,4,0
+2016,Series2,C,,12,5,0

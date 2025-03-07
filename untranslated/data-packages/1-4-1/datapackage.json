@@ -15,20 +15,26 @@
             "type": "integer"
           },
           {
-            "name": "Geography",
+            "name": "Group",
             "type": "string",
             "constraints": {
               "enum": [
                 "A",
                 "B",
-                "C",
                 ""
               ]
             }
           },
           {
-            "name": "GeoCode",
-            "type": "string"
+            "name": "Subgroup",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "X",
+                "Y",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

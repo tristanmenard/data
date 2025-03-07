@@ -16,21 +16,32 @@
             "title": "Année"
           },
           {
-            "name": "Group",
+            "name": "Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "A_fr",
-                "B_fr",
-                "C_fr",
+                "Série1",
+                "Série2",
                 ""
               ]
             },
-            "title": "Groupe"
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unité1",
+                "Unité2",
+                ""
+              ]
+            },
+            "title": "Units"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]
