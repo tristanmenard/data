@@ -30,13 +30,9 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-auto_progress_calculation: true
+auto_progress_calculation: false
 progress_calculation_options:
 - disaggregation:
-  - field: Geography
+  - field: Group
     value: A
   direction: positive
-- disaggregation: 
-  - field: Geography
-    value: B
-  direction: negative

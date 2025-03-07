@@ -17,12 +17,12 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-2-1-title
+graph_title: global_indicators.1-4-2-title
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.1-2-1-title
-indicator_number: '1.2.1'
-national_geographical_coverage: 'Canada'
+indicator_name: global_indicators.1-4-2-title
+indicator_number: '1.4.2'
+national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
@@ -30,13 +30,11 @@ reporting_status: complete
 sort: ''
 standalone: false
 tags: []
-auto_progress_calculation: true
+auto_progress_calculation: false
 progress_calculation_options:
-- series: Series1
+- disaggregation:
+  - field: Group
+    value: A
+  - field: Subgroup
+    value: Z
   direction: positive
-  target: 3
-  target_year: 2016
-- series: Series2
-  direction: positive
-  target: 3
-  target_year: 2016

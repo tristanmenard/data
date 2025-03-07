@@ -7,7 +7,13 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values:
+- field: Group
+  value: Group A
+- field: Group
+  value: Group B
+- field: Group
+  value: Group C
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -17,11 +23,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.1-2-1-title
+graph_title: global_indicators.1-2-3-title
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.1-2-1-title
-indicator_number: '1.2.1'
+indicator_name: global_indicators.1-2-3-title
+indicator_number: '1.2.3'
 national_geographical_coverage: 'Canada'
 page_content: ''
 permalink: ''
@@ -32,11 +38,15 @@ standalone: false
 tags: []
 auto_progress_calculation: true
 progress_calculation_options:
-- series: Series1
+- disaggregation:
+  - field: Group
+    value: Group C
   direction: positive
   target: 3
   target_year: 2016
-- series: Series2
+- disaggregation:
+  - field: Group
+    value: Group B
   direction: positive
   target: 3
   target_year: 2016

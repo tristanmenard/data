@@ -32,7 +32,11 @@ standalone: false
 tags: []
 auto_progress_calculation: true
 progress_calculation_options:
-- series: Series1
-  unit: USD
-  target: 7.25
-  target_year: 2030
+- unit: Unit1
+  direction: positive
+  target: 3
+  target_year: 2016
+- unit: Unit2
+  direction: positive
+  target: 3
+  target_year: 2016
