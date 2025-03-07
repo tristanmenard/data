@@ -13,7 +13,10 @@
 ##### 1.3.2 Series/disaggregation selection
 ##### 1.3.3 Unit/disaggregation selection
 ##### 1.3.4 Series, unit, and disaggregation selection
-##### 1.4.x Selection not sufficiently reduced by user --> Warn user and set not_available?
+##### 1.4.1 Selection not sufficiently reduced by user --> Error during build
+##### 1.4.2 Error in series/unit/disaggregation selection --> Warning if can be ignored, Error if critical
+##### 1.4.3 Empty data file
+##### 1.4.4 No data file
 
 ### 2. Progress column
 ##### 2.1.1 Progress column with valid data
@@ -44,12 +47,13 @@
 ##### 4.6.1 Quantitative, all negative values, positive direction target achieved at t = 0
 ##### 4.6.2 Quantitative, all negative values, negative direction, target achieved at t = 0
 ##### 4.7.1 Mix of positive and negative values --> ??
-##### 4.8.1 Manual override (user provides progress_status while auto_progress_calculatio is false) --> score = None, progress_status = whatever the user provided
+##### 4.8.1 Manual override --> score = None, progress_status = whatever the user provided
+##### 4.9.1 Not enough data points
 
 ### 5. Zeros
-##### Target = 0
-##### Base_value = 0
-##### Limit = 0
+##### 5.1.1 Target = 0
+##### 5.1.2 Base_value = 0
+##### 5.1.3 Limit = 0
 
 ### 6. Score
 ##### 6.1.1 Qualitative indicator with CAGR = 1.5%, score should be 2.5
@@ -70,4 +74,5 @@
 ### 7. Other
 ##### 7.1.1 Data start values after changing series
 ##### 7.2.1 Observation attributes and GeoCode
-##### 7.3.1 Manual override, no progress status
+##### 7.3.1 No progress status, manual override
+##### 7.3.2 Non-statistical indicator, manual override
