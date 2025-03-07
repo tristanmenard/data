@@ -52,3 +52,5 @@
 6-3-5-title: Quantitative indicator, multiple disaggregations, substantial progress (scores=[5,5,5,5]), some targets achieved --> (5, substantial_progress)
 6-3-6-title: Quantitative indicator, multiple disaggregations, substantial progress (scores=[5,5,5,5]), all targets achieved --> (5, target_achieved)
 7-1-1-title: Data start values after changing series
+7-2-1-title: Observation attributes and GeoCode
+7-3-1-title: Manual override, no progress status
