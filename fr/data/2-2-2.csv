@@ -1,1 +1,5 @@
-Year,Value
+Year,Units,Progress,Value
+2015,Unité1,1.0,0
+2015,Unité2,,-1
+2016,Unité1,9.0,0
+2016,Unité2,,1

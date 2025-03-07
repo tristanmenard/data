@@ -1,1 +1,5 @@
-Year,Value
+Year,Series,Progress,Value
+2015,Série1,1.0,0
+2015,Série2,,-1
+2016,Série1,9.0,0
+2016,Série2,,1

@@ -3,6 +3,47 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "2-2-3/data.csv",
+      "name": "2-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Groupe A",
+                "Groupe B",
+                ""
+              ]
+            },
+            "title": "Groupe"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)"
+    },
+    {
       "path": "1-1-2/data.csv",
       "name": "1-1-2",
       "profile": "tabular-data-resource",
@@ -208,6 +249,47 @@
       "title": "Plusieurs désagrégations qui démontrent des progrès substantiels et complètent chaque cible"
     },
     {
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Série1",
+                "Série2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prévalence du retard de croissance (indice taille/âge inférieur à -2 écarts types par rapport à la médiane des normes de croissance de l’enfant définies par l’OMS) chez les enfants de moins de 5 ans"
+    },
+    {
       "path": "1-4-2/data.csv",
       "name": "1-4-2",
       "profile": "tabular-data-resource",
@@ -292,6 +374,47 @@
       "title": "Plusieurs désagrégations qui démontrent des progrès limités et complètent aucune cible"
     },
     {
+      "path": "2-2-2/data.csv",
+      "name": "2-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unité1",
+                "Unité2",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prévalence de la malnutrition (indice poids/taille supérieur à +2 écarts types ou inférieur à -2 écarts types par rapport à la médiane des normes de croissance de l’enfant définies par l’OMS chez les enfants de moins de 5 ans, par forme (surpoids et émaciation)"
+    },
+    {
       "path": "6-3-3/data.csv",
       "name": "6-3-3",
       "profile": "tabular-data-resource",
@@ -326,6 +449,35 @@
         ]
       },
       "title": "Plusieurs désagrégations qui démontrent des progrès limités et complètent chaque cible"
+    },
+    {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)"
     },
     {
       "path": "7-3-1/data.csv",
@@ -413,47 +565,6 @@
       "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = 0 %"
     },
     {
-      "path": "2-3-1/data.csv",
-      "name": "2-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Année"
-          },
-          {
-            "name": "Group",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Groupe A",
-                "Groupe B",
-                ""
-              ]
-            },
-            "title": "Groupe"
-          },
-          {
-            "name": "Progress",
-            "type": "string",
-            "title": "Progress"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Volume de production par unité de travail, en fonction de la taille de l’exploitation agricole, pastorale ou forestière"
-    },
-    {
       "path": "6-3-5/data.csv",
       "name": "6-3-5",
       "profile": "tabular-data-resource",
@@ -536,6 +647,71 @@
         ]
       },
       "title": "global_indicators.1-3-2-title"
+    },
+    {
+      "path": "2-2-4/data.csv",
+      "name": "2-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Série1",
+                "Série2",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Unité1",
+                "Unité2",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Groupe A",
+                "Groupe B",
+                ""
+              ]
+            },
+            "title": "Groupe"
+          },
+          {
+            "name": "Progress",
+            "type": "string",
+            "title": "Progress"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)"
     },
     {
       "path": "6-2-4/data.csv",
@@ -745,6 +921,69 @@
         ]
       },
       "title": "Alignement des scores - Indicateur qualitatif ayant un CAGR de -1 %"
+    },
+    {
+      "path": "1-4-3/data.csv",
+      "name": "1-4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Année"
+          },
+          {
+            "name": "Group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Groupe"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.1-4-3-title"
+    },
+    {
+      "path": "2-1-3/data.csv",
+      "name": "2-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Année"
+          },
+          {
+            "name": "Progress",
+            "type": "number",
+            "title": "Progress"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-3-title"
     },
     {
       "path": "6-3-2/data.csv",
@@ -1298,30 +1537,6 @@
       "title": "a) Proportion de la population agricole totale ayant des droits de propriété ou des droits garantis sur des terres agricoles, par sexe ; b) proportion de femmes parmi les titulaires de droits de propriété ou de droits garantis sur des terrains agricoles, par type de droit"
     },
     {
-      "path": "2-a-1/data.csv",
-      "name": "2-a-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Indice d’orientation agricole des dépenses publiques"
-    },
-    {
       "path": "5-2-1/data.csv",
       "name": "5-2-1",
       "profile": "tabular-data-resource",
@@ -1368,30 +1583,6 @@
         ]
       },
       "title": "Variation de l’efficacité de l’utilisation des ressources en eau"
-    },
-    {
-      "path": "2-c-1/data.csv",
-      "name": "2-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Indicateur d’anomalies des prix alimentaires"
     },
     {
       "path": "17-14-1/data.csv",
@@ -2162,30 +2353,6 @@
       "title": "Taux de croissance annuelle du PIB réel par habitant"
     },
     {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prévalence d’une insécurité alimentaire modérée ou grave, évaluée selon l’échelle de mesure de l’insécurité alimentaire vécue (échelle FIES)"
-    },
-    {
       "path": "8-8-1/data.csv",
       "name": "8-8-1",
       "profile": "tabular-data-resource",
@@ -2498,30 +2665,6 @@
       "title": "Proportion de pays dotés de systèmes permettant de suivre et de rendre public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes"
     },
     {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prévalence du retard de croissance (indice taille/âge inférieur à -2 écarts types par rapport à la médiane des normes de croissance de l’enfant définies par l’OMS) chez les enfants de moins de 5 ans"
-    },
-    {
       "path": "12-a-1/data.csv",
       "name": "12-a-1",
       "profile": "tabular-data-resource",
@@ -2762,30 +2905,6 @@
       "title": "Niveau moyen annuel de particules fines (PM 2,5 et PM 10, par exemple) dans les villes, pondéré en fonction du nombre d’habitants"
     },
     {
-      "path": "2-5-1/data.csv",
-      "name": "2-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Nombre de ressources génétiques animales et végétales destinées à l’alimentation et à l’agriculture sécurisées dans des installations de conservation à moyen ou à long terme"
-    },
-    {
       "path": "9-5-1/data.csv",
       "name": "9-5-1",
       "profile": "tabular-data-resource",
@@ -2808,6 +2927,30 @@
         ]
       },
       "title": "Dépenses de recherche-développement en proportion du PIB"
+    },
+    {
+      "path": "7-3-2/data.csv",
+      "name": "7-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.7-3-2-title"
     },
     {
       "path": "12-6-1/data.csv",
@@ -3168,30 +3311,6 @@
         ]
       },
       "title": "Nombre de pays dotés d’un plan statistique national intégralement financé et en cours de mise en œuvre, par source de financement"
-    },
-    {
-      "path": "2-3-2/data.csv",
-      "name": "2-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Revenu moyen des petits producteurs alimentaires, selon le sexe et le statut d’autochtone"
     },
     {
       "path": "11-7-2/data.csv",
@@ -4466,30 +4585,6 @@
       "title": "Taux de mortalité attribuable à un empoisonnement accidentel"
     },
     {
-      "path": "2-4-1/data.csv",
-      "name": "2-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion des zones agricoles exploitées de manière productive et durable"
-    },
-    {
       "path": "14-4-1/data.csv",
       "name": "14-4-1",
       "profile": "tabular-data-resource",
@@ -4728,30 +4823,6 @@
         ]
       },
       "title": "Proportion du budget total de la recherche allouée à la recherche sur les techniques marines"
-    },
-    {
-      "path": "2-b-1/data.csv",
-      "name": "2-b-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Subventions à l’exportation dans le secteur agricole"
     },
     {
       "path": "16-1-4/data.csv",
@@ -5112,30 +5183,6 @@
         ]
       },
       "title": "Indice de couvert végétal montagneux"
-    },
-    {
-      "path": "2-5-2/data.csv",
-      "name": "2-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion des races locales considérées comme étant en danger d’extinction"
     },
     {
       "path": "16-10-2/data.csv",
@@ -5666,30 +5713,6 @@
       "title": "Abonnements à une connexion à Internet à haut débit fixe pour 100 habitants, par vitesse de connexion"
     },
     {
-      "path": "2-2-2/data.csv",
-      "name": "2-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prévalence de la malnutrition (indice poids/taille supérieur à +2 écarts types ou inférieur à -2 écarts types par rapport à la médiane des normes de croissance de l’enfant définies par l’OMS chez les enfants de moins de 5 ans, par forme (surpoids et émaciation)"
-    },
-    {
       "path": "17-2-1/data.csv",
       "name": "17-2-1",
       "profile": "tabular-data-resource",
@@ -5954,30 +5977,6 @@
       "title": "Degré d’intégration de i) l’éducation à la citoyenneté mondiale et ii) l’éducation au développement durable dans a) les politiques nationales d’éducation, b) les programmes d’enseignement, c) la formation des enseignants et d) l’évaluation des étudiants (identique à l’amélioration à apporter à l’indicateur 12.8.1 ci dessous et à la proposition de remplacement faite pour l’indicateur 13.3.1, figurant à la section A de l’annexe II)"
     },
     {
-      "path": "2-a-2/data.csv",
-      "name": "2-a-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Total des apports publics (aide publique au développement plus autres apports publics) alloués au secteur agricole"
-    },
-    {
       "path": "6-b-1/data.csv",
       "name": "6-b-1",
       "profile": "tabular-data-resource",
@@ -6000,30 +5999,6 @@
         ]
       },
       "title": "Proportion d’administrations locales ayant mis en place des politiques et procédures opérationnelles encourageant la participation de la population locale à la gestion de l’eau et de l’assainissement"
-    },
-    {
-      "path": "2-2-3/data.csv",
-      "name": "2-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Année"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)"
     },
     {
       "path": "8-7-1/data.csv",
@@ -6264,6 +6239,30 @@
         ]
       },
       "title": "Proportion de la population possédant un téléphone portable, par sexe"
+    },
+    {
+      "path": "1-4-4/data.csv",
+      "name": "1-4-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Année"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "global_indicators.1-4-4-title"
     },
     {
       "path": "3-1-1/data.csv",

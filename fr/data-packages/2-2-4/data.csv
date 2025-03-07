@@ -1,0 +1,17 @@
+Year,Series,Units,Groupe,Progress,Value
+2015,Série1,Unité1,Groupe A,9,0
+2015,Série1,Unité1,Groupe B,1,-1
+2015,Série1,Unité2,Groupe A,1,0
+2015,Série1,Unité2,Groupe B,1,-1
+2015,Série2,Unité1,Groupe A,1,0
+2015,Série2,Unité1,Groupe B,1,-1
+2015,Série2,Unité2,Groupe A,1,0
+2015,Série2,Unité2,Groupe B,1,-1
+2016,Série1,Unité1,Groupe A,1,0
+2016,Série1,Unité1,Groupe B,1,-1
+2016,Série1,Unité2,Groupe A,1,0
+2016,Série1,Unité2,Groupe B,2,-1
+2016,Série2,Unité1,Groupe A,1,0
+2016,Série2,Unité1,Groupe B,2,-1
+2016,Série2,Unité2,Groupe A,2,0
+2016,Série2,Unité2,Groupe B,9,-1
