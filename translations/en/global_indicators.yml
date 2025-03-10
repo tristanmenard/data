@@ -22,6 +22,8 @@
 2-3-1-title: Progress column with empty headline
 3-1-1-title: Qualitative indicator with maximum limit
 3-1-2-title: Qualitative indicator with minimum limit
+3-1-3-title: Qualitative indicator with limit, wrong direction
+3-1-4-title: Qualitative indicator with limit, base value = limit
 3-2-1-title: Quantitative indicator with limit
 4-1-1-title: Qualitative, all positive values, positive direction
 4-1-2-title: Qualitative, all positive values, negative direction
