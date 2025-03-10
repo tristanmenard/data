@@ -21,11 +21,11 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.2-2-3-title
+graph_title: global_indicators.2-2-4-title
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.2-2-3-title
-indicator_number: '2.2.3'
+indicator_name: global_indicators.2-2-4-title
+indicator_number: '2.2.4'
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
@@ -36,10 +36,11 @@ standalone: false
 tags: []
 auto_progress_calculation: false
 progress_calculation_options:
-- series: Series1
+- series: Series2
+  unit: Unit2
   disaggregation:
   - field: Group
-    value: Group A
+    value: Group B
   direction: positive
   target: 3
   target_year: 2016
