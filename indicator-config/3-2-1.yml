@@ -26,7 +26,13 @@ national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
+auto_progress_calculation: true
+progress_calculation_options:
+- direction: positive
+  target: 100
+  target_year: 2016
+  limit: 100
