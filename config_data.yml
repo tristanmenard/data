@@ -7,7 +7,7 @@
 # -------
 logging:
   - warn
-  - debug
+  # - debug
 
 # Languages
 # ---------
