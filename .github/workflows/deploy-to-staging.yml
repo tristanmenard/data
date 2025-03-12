@@ -43,6 +43,23 @@ jobs:
     - name: Build data
       run: |
         python scripts/build_data.py
+    - name: Check if there are any changes to files
+      id: verify_diff
+      run: |
+        git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+    - name: Commit files
+      if: steps.verify_diff.outputs.changes == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "Add new progress measure updates"
+    - name: Push changes
+      if: steps.verify_diff.outputs.changed == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
     - name: Place public files
       run: |
         cp public/robots-staging.txt _site/robots.txt
