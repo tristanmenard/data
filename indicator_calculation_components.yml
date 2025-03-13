@@ -609,6 +609,22 @@
 4-8-1:
   progress_status: target_achieved
   score: null
+4-9-1:
+  4-9-1:
+    base_value: 1.0
+    base_year: 2016.0
+    current_value: 1.0
+    current_year: 2016.0
+    direction: -1
+    limit: null
+    progress_value: null
+    score: null
+    sign: 1
+    status: not_available
+    target: null
+    target_year: 2030.0
+  progress_status: not_available
+  score: null
 5-1-1:
   5-1-1:
     base_value: 2.0
