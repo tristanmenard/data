@@ -37,7 +37,7 @@ jobs:
         if [[ `git status -s` ]]; then
           echo "DIFF=true" >> "$GITHUB_OUTPUT"
         else
-          echo "DIFF=false" >> "$GITHUBU_OUTPUT"
+          echo "DIFF=false" >> "$GITHUB_OUTPUT"
         fi
     - name: Commit files
       if: steps.verify_diff.outputs.DIFF == 'true'
