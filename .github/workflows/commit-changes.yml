@@ -14,12 +14,9 @@ jobs:
         fetch-depth: 0
     - name: Check if there are any changes to files
       id: verify_diff
-      run: |
-        git diff --quiet || echo "changed=true" >> $GITHUB_OUTPUT
-        echo $GITHUB_OUTPUT
-    - name: Did any files change?
-      run: |
-        echo $GITHUB_OUTPUT
+      run: echo "changed=true" >> $GITHUB_OUTPUT
+    - name: Use the environment variable
+      run: echo "The value of changed is $changed"
     # - name: Commit files
     #   if: steps.verify_diff.outputs.changed == 'true'
     #   run: |
