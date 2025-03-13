@@ -13,7 +13,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Set environment variable
-      run: echo "CHANGED=true" >> $GITHUB_OUTPUT
+      run: echo "CHANGED=true" >> $GITHUB_ENV
     - name: Use the environment variable
       run: echo "The value of CHANGED is $CHANGED"
     # - name: Commit files
