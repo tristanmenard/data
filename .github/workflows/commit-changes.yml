@@ -12,33 +12,38 @@ jobs:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
-    - name: Set environment variable
-      run: echo "CHANGED=true" >> $GITHUB_ENV
-    - name: Use the environment variable
-      run: echo "The value of CHANGED is $CHANGED"
-    - name: Set output parameter
-      id: color-selector
-      run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
-    - name: Get output parameter
-      env:
-        SELECTED_COLOR: ${{ steps.color-selector.outputs.SELECTED_COLOR }}
-      run: echo "The selected color is $SELECTED_COLOR"
-    - name: Get output parameter if it is green
-      if: steps.color-selector.outputs.SELECTED_COLOR == 'green'
-      run: echo "It was green!"
-    - name: Get output parameter if it is red
-      if: steps.color-selector.outputs.SELECTED_COLOR == 'red'
-      run: echo "It was red!"
-    # - name: Commit files
-    #   if: steps.verify_diff.outputs.changed == 'true'
-    #   run: |
-    #     git config --local user.email "github-actions[bot]@users.noreply.github.com"
-    #     git config --local user.name "github-actions[bot]"
-    #     git add .
-    #     git commit -m "Add new progress measure updates"
-    # - name: Push changes
-    #   if: steps.verify_diff.outputs.changed == 'true'
-    #   uses: ad-m/github-push-action@master
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
-    #     branch: ${{ github.ref }}
+    # - name: Set environment variable
+    #   run: echo "CHANGED=true" >> $GITHUB_ENV
+    # - name: Use the environment variable
+    #   run: echo "The value of CHANGED is $CHANGED"
+    # - name: Set output parameter
+    #   id: color-selector
+    #   run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
+    # - name: Get output parameter
+    #   env:
+    #     SELECTED_COLOR: ${{ steps.color-selector.outputs.SELECTED_COLOR }}
+    #   run: echo "The selected color is $SELECTED_COLOR"
+    # - name: Get output parameter if it is green
+    #   if: steps.color-selector.outputs.SELECTED_COLOR == 'green'
+    #   run: echo "It was green!"
+    # - name: Get output parameter if it is red
+    #   if: steps.color-selector.outputs.SELECTED_COLOR == 'red'
+      # run: echo "It was red!"
+    - name: Create a file
+      run: touch test
+    - name: Check if there are any changes to files
+      id: verify_diff
+      run: git diff --quiet || echo "DIFF=true" >> "$GITHUB_OUTPUT"
+    - name: Commit files
+      if: steps.verify_diff.outputs.DIFF == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        git commit -m "Add new progress measure updates"
+    - name: Push changes
+      if: steps.verify_diff.outputs.DIFF == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
