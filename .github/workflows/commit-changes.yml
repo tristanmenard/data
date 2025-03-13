@@ -33,7 +33,12 @@ jobs:
       run: touch test
     - name: Check if there are any changes to files
       id: verify_diff
-      run: git diff --quiet || echo "DIFF=true" >> "$GITHUB_OUTPUT"
+      run: |
+        if [[ `git status -s` ]]; then
+          echo "DIFF=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "DIFF=false" >> "$GITHUBU_OUTPUT"
+        fi
     - name: Commit files
       if: steps.verify_diff.outputs.DIFF == 'true'
       run: |
