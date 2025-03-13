@@ -12,11 +12,10 @@ jobs:
     - uses: actions/checkout@v3
       with:
         fetch-depth: 0
-    - name: Check if there are any changes to files
-      id: verify_diff
-      run: echo "changed=true" >> $GITHUB_OUTPUT
+    - name: Set environment variable
+      run: echo "CHANGED=true" >> $GITHUB_OUTPUT
     - name: Use the environment variable
-      run: echo "The value of changed is $changed"
+      run: echo "The value of CHANGED is $CHANGED"
     # - name: Commit files
     #   if: steps.verify_diff.outputs.changed == 'true'
     #   run: |
