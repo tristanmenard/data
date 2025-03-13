@@ -19,7 +19,7 @@ jobs:
         echo $GITHUB_OUTPUT
     - name: Did any files change?
       run: |
-        echo steps.verify.diff.outputs.changed
+        echo $GITHUB_OUTPUT
     # - name: Commit files
     #   if: steps.verify_diff.outputs.changed == 'true'
     #   run: |
