@@ -23,6 +23,12 @@ jobs:
       env:
         SELECTED_COLOR: ${{ steps.color-selector.outputs.SELECTED_COLOR }}
       run: echo "The selected color is $SELECTED_COLOR"
+    - name: Get output parameter if it is green
+      if: steps.color-selector.outputs.SELECTED_COLOR == "green"
+      run: echo "It was green!"
+    - name: Get output parameter if it is red
+      if: steps.color-selector.outputs.SELECTED_COLOR != "red"
+      run: echo "It was red!"
     # - name: Commit files
     #   if: steps.verify_diff.outputs.changed == 'true'
     #   run: |
