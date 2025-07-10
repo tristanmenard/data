@@ -43,27 +43,11 @@ jobs:
     - name: Build data
       run: |
         python scripts/build_data.py
-    - name: Check if there are any changes to files
-      id: verify_diff
-      run: |
-        if [[ `git status -s` ]]; then
-          echo "DIFF=true" >> "$GITHUB_OUTPUT"
-        else
-          echo "DIFF=false" >> "$GITHUB_OUTPUT"
-        fi
-    - name: Commit files
-      if: steps.verify_diff.outputs.DIFF == 'true'
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        git commit -m "Add new progress measure updates"
-    - name: Push changes
-      if: steps.verify_diff.outputs.DIFF == 'true'
-      uses: ad-m/github-push-action@master
+    - name: Upload indicator_calculation_components.yml as artifact
+      uses: actions/upload-artifact@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        name: indicator_calculation_components
+        path: indicator_calculation_components.yml
     - name: Place public files
       run: |
         cp public/robots-staging.txt _site/robots.txt
