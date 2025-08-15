@@ -74,6 +74,16 @@ COMPARABILITY: >-
 
 OTHER_DOC: >-
 
+PROGRESS_DETAILS: >-
+  <p>L'état du progrès pour cet indicateur est basé uniquement sur la progression de la série "Série1".</p>
+  <p>Détails du calcul de progrès :</p>
+  <p><b>Série1</b></p>
+  <ul>
+    <li>Direction : Positive</li>
+    <li>Cible : 3</li>
+    <li>Année cible : 2016</li>
+  </ul>
+
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Statistique Canada. Tableau 11-10-0135-01  Statistiques du faible revenu selon l'âge, le sexe et le type de famille économique

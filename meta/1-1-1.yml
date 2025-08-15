@@ -77,6 +77,16 @@ COMPARABILITY: >-
 
 OTHER_DOC: >-
 
+PROGRESS_DETAILS: >-
+  <p>The progress status for this indicator is based solely on the progress of the series "Series1".</p>
+  <p>Progress calculation details:</p>
+  <p><b>Series1</b></p>
+  <ul>
+    <li>Direction: Positive</li>
+    <li>Target: 3</li>
+    <li>Target Year: 2016</li>
+  </ul>
+
 # SOURCE(S)
 source_active_1: 'true'
 source_url_text_1: Statistics Canada. Table 11-10-0135-01  Low income statistics by age, sex and economic family type
